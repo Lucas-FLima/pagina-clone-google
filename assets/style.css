@@ -16,6 +16,12 @@ header {
     padding: 10px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .header_position {
     display: flex;
     line-height: 24px;
@@ -38,7 +44,7 @@ header {
     vertical-align: middle;
 }
 
-.test {
+.dots {
     margin-left: 10px;
     margin-right: 20px;
 }
@@ -47,12 +53,6 @@ header {
     width: 32px;
     border-radius: 50px;
     vertical-align: middle;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 .google_content {
